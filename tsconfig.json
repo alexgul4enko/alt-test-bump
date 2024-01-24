@@ -11,6 +11,5 @@
     "sourceMap": true,
     "target": "es5",
   },
-  "include": ["lib/index.ts"],
-  "exclude": ["node_modules"]
+  "include": ["lib/index.ts"]
 }
