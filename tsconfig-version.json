@@ -1,6 +1,16 @@
 {
   "compilerOptions": {
-    "noEmit": true
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react-jsx",
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "isolatedModules": true
   },
-  "include": ["test-breaking-ts-changes.ts", "lib", "node_modules/alt-test-bump"]
+  "include": ["test-breaking-ts-changes.ts", "lib", "node_modules/alt-test-bump", "dist/index.d.ts"]
 }

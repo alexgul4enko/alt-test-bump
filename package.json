@@ -1,6 +1,6 @@
 {
   "name": "alt-test-bump",
-  "version": "1.1.0",
+  "version": "2.2.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "tsc --build"
   },
-  "include": [
+  "files": [
     "dist",
     "README.md",
     "package.json"
@@ -24,7 +24,16 @@
   },
   "homepage": "https://github.com/alexgul4enko/alt-test-bump#readme",
   "devDependencies": {
-    "alt-test-bump": "^1.0.0",
+    "@microsoft/api-extractor": "^7.39.4",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "alt-test-bump": "^2.1.0",
+    "type-plus": "^7.6.0",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "type-fest": "^4.10.1"
   }
 }

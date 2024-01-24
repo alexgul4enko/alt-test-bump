@@ -3,13 +3,16 @@
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "declaration": true,
-    "module": "es2022",
+    "module": "esnext",
     "outDir": "./dist",
     "noImplicitAny": false,
     "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,
-    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react-jsx"
   },
   "include": ["lib/index.ts"]
 }

@@ -1,6 +1,5 @@
-type NestedAssignable<T, F extends T> = never;
+type A = Pick<typeof import("./lib/index"), keyof typeof import("./node_modules/alt-test-bump")>
+type B = typeof import("./node_modules/alt-test-bump")
 
-type NoBreakingChanges = NestedAssignable<
-  Pick<typeof import("./lib/index"), keyof typeof import("./node_modules/alt-test-bump")>,
-  typeof import("./node_modules/alt-test-bump")
->;
+const G:B = ({} as A)
+
