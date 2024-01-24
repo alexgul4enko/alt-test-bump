@@ -1,6 +1,6 @@
 {
   "name": "alt-test-bump",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "tsc --build"
   },
-  "include": [
+  "files": [
     "dist",
     "README.md",
     "package.json"
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/alexgul4enko/alt-test-bump#readme",
   "devDependencies": {
+    "alt-test-bump": "^1.1.1",
     "typescript": "^5.3.3"
   }
 }

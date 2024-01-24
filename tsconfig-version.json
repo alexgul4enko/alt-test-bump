@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true
+  },
+  "include": ["test-breaking-ts-changes.ts", "lib", "node_modules/alt-test-bump"]
+}
